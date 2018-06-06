@@ -29,7 +29,7 @@ Table of Contents
 /* !---------- General HTML Elements ---------- */
 
 body {
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: $base-font-size;
     line-height: $base-line-height;
@@ -1440,15 +1440,15 @@ footer {
     header { background-color: #fff; }
 
     nav.top {
-        background-color: $winter-bright-blue;
+        background-color: $winter-orange;
 
         li:hover a { color: #fff; }
 
-        a:link, a:visited  { color: $winter-blue-on-pale-blue; }
+        a:link, a:visited  { color: #fff; }
         a:active, a:hover, a:focus, a.open  { color: #fff; }
 
         .sub-nav {
-            background-color: lighten($winter-bright-blue, 5%);
+            background-color: lighten($winter-orange, 5%);
             li {
                 & > a:link, & > a:visited, & > a:active, & > a:hover, & > a:focus { color:#fff; }
 

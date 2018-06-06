@@ -1,3 +1,4 @@
+/*#43ADB8;*/
 @media screen {
   /*
 Table of Contents
@@ -27,7 +28,7 @@ Table of Contents
 */
   /* !---------- General HTML Elements ---------- */
   body {
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 300;
     font-size: 16px;
     line-height: 24px;
@@ -974,21 +975,21 @@ Table of Contents
   .winter a:link {
     color: #228494; }
   .winter a:visited {
-    color: #43ADB8; }
+    color: #1A76BA; }
   .winter a:hover, .winter a:active, .winter a:focus {
     color: #3acacc; }
   .winter header {
     background-color: #fff; }
   .winter nav.top {
-    background-color: #228494; }
+    background-color: #EB6E1F; }
     .winter nav.top li:hover a {
       color: #fff; }
     .winter nav.top a:link, .winter nav.top a:visited {
-      color: #def9ff; }
+      color: #fff; }
     .winter nav.top a:active, .winter nav.top a:hover, .winter nav.top a:focus, .winter nav.top a.open {
       color: #fff; }
     .winter nav.top .sub-nav {
-      background-color: #2796a9; }
+      background-color: #ed7d36; }
       .winter nav.top .sub-nav li > a:link, .winter nav.top .sub-nav li > a:visited, .winter nav.top .sub-nav li > a:active, .winter nav.top .sub-nav li > a:hover, .winter nav.top .sub-nav li > a:focus {
         color: #fff; }
       .winter nav.top .sub-nav li a:focus, .winter nav.top .sub-nav li a:hover {
@@ -1001,7 +1002,7 @@ Table of Contents
   .winter .secondary-nav .current a,
   .winter .secondary-nav a.current,
   .winter .exhibit-section-nav .current a {
-    background-color: #43ADB8; }
+    background-color: #1A76BA; }
   .winter #home #content > div {
     border-color: #4b6569; }
   .winter #content > h1 {
