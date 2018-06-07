@@ -46,6 +46,12 @@
         <div class="element-text"><?php echo metadata('item', 'citation', array('no_escape' => true)); ?></div>
     </div>
 
+    <!-- Available output formats --> 
+    <div id="item-output-formats" class="element">
+        <h2><?php echo __('Output Formats'); ?></h2>
+        <div class="element-text"><?php echo output_format_list(); ?></div>
+    </div>
+
 </aside>
 
 <ul class="item-pagination navigation">
