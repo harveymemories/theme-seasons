@@ -1432,8 +1432,8 @@ footer {
     input[type=text], input[type=password], textarea { background-color: $winter-light-gray; }
 
     a {
-        &:link { color: $winter-bright-blue; }
-        &:visited { color: $winter-pale-blue; }
+        &:link { color: $winter-pale-blue; }
+        &:visited { color: $winter-bright-blue; }
         &:hover, &:active, &:focus { color: $winter-hover-blue; }
     }
 
