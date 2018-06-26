@@ -27,7 +27,7 @@ Table of Contents
 
 
 /* !---------- General HTML Elements ---------- */
-
+html { overflow-y: scroll; }
 body {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
@@ -258,6 +258,7 @@ nav {
 
 .top {
     padding: 0 16px;
+    min-height: 52px;
 
     ul {
         display: none;
