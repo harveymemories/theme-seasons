@@ -592,6 +592,8 @@ footer {
     clear:both;
     overflow:visible;
     padding: (1 * $spacing-unit) 16px;
+    background: url(/hmp-background.png) top left no-repeat $winter-pale-blue;
+    background-size: 100%;
 
     &:after {
         content: "";

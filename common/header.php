@@ -64,7 +64,7 @@
             <?php echo public_nav_main(); ?>
         </nav>
 
-        <div id="content" role="main" tabindex="-1" style="background:url(/hmp-background.png) top left no-repeat #1A76BA;background-size:100%">
+        <div id="content" role="main" tabindex="-1">
             <?php
                 if(! is_current_url(WEB_ROOT)) {
                   fire_plugin_hook('public_content_top', array('view'=>$this));
