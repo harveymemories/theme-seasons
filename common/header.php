@@ -25,6 +25,13 @@
     queue_css_url('//fonts.googleapis.com/css?family=Roboto:300,400,500,700,300italic,400italic,500italic,700italic');
     queue_css_file(array('iconfonts', 'normalize', 'style'), 'screen');
     queue_css_file('print', 'print');
+    $gt_css = '
+        .goog-te-gadget{font-size: 19px !important;}
+        .goog-te-gadget-simple{background-color: transparent !important; border: none !important; float:right; padding: 0 0 24px 0; margin: 0; display: block;}
+        .goog-te-gadget-simple span{color: #ccc; text-decoration: none; font-size: 16px; font-weight: 300;}
+        .goog-te-gadget-icon{display:none !important;}
+    ';
+    queue_css_string($gt_css);
     echo head_css();
     ?>
 
