@@ -6,32 +6,7 @@ echo head(array('title' => $pageTitle, 'bodyclass' => 'items browse'));
     <h1><?php echo $pageTitle;?> <?php echo __('(%s total)', $total_results); ?></h1>
 
 <nav class="items-nav navigation secondary-nav">
-    <?php echo public_nav_items(array (
-        array(
-            'label' => __('Browse All'),
-            'uri' => url('items/browse')
-        ),
-        array(
-            'label' => __('Stories'),
-            'uri' => url('items/browse?type=1')
-        ),
-        array(
-            'label' => __('Images'),
-            'uri' => url('items/browse?type=6')
-        ),
-        array(
-            'label' => __('Video'),
-            'uri' => url('items/browse?type=3')
-        ),
-        array(
-            'label' => __('Audio'),
-            'uri' => url('items/browse?type=5')
-        ),
-        array(
-            'label' => __('Search'),
-            'uri' => url('items/search')
-        )
-    )); ?>
+    <?php echo public_nav_items(); ?>
 </nav>
 
 <?php echo item_search_filters(); ?>
