@@ -1471,6 +1471,7 @@ footer {
     .secondary-nav a.current,
     .exhibit-section-nav .current a{
         background-color: $winter-pale-blue;
+        outline: none;
     }
 
     #home #content > div {
