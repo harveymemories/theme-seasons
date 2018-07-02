@@ -131,7 +131,7 @@ $formAttributes['method'] = 'GET';
         </div>
     </div>
 
-    <?php if (total_count('Collection')): ?>
+    <?php if (total_records('Collection')): ?>
     <div class="field">
         <?php echo $this->formLabel('collection-search', __('Search By Collection')); ?>
         <div class="inputs">
