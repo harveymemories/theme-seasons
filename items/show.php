@@ -7,8 +7,9 @@
     <?php if ((get_theme_option('Item FileGallery') == 0) && metadata('item', 'has files')): ?>
     <?php echo files_for_item(array('imageSize' => 'fullsize')); ?>
     <?php endif; ?>
-    
-    <?php echo all_element_texts('item'); ?>
+
+    <?php echo all_element_texts('item', array('show_element_sets' =>'Item Type Metadata')); ?>
+    <?php echo all_element_texts('item', array('show_element_sets' =>'Dublin Core')); ?>
     
     <?php fire_plugin_hook('public_items_show', array('view' => $this, 'item' => $item)); ?>
 
