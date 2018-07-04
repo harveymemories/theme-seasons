@@ -14,7 +14,7 @@
     ?>
     <?php if ($description): ?>
         <p class="item-description"><?php echo $description; ?></p>
-    <?php else if ($text): ?>
+    <?php elseif ($text): ?>
         <p class="item-description"><?php echo $text; ?></p>
     <?php endif; ?>
 </div>
