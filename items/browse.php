@@ -41,6 +41,10 @@ $sortLinks[__('Date Created')] = 'Dublin Core, Date Created';
             <div class="item-description">
                     <?php echo $description; ?>
     </div>
+    <?php elseif ($text = metadata('item', array('Item Type Metadata', 'Text'), array('snippet' => 250))): ?>
+            <div class="item-description">
+                    <?php echo $text; ?>
+    </div>
             <?php endif; ?>
 
     <?php if (metadata('item', 'has tags')): ?>
