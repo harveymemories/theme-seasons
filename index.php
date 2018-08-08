@@ -61,9 +61,9 @@ if ($recentItems):
 <div id="featured-item" class="logos" style="background-color: #fff; opacity: 0.7; border: 0px; box-shadow: none;">
 <center>
 <?php 
-echo $this->adminImageTag($image_id="1",$size="original");
-echo $this->adminImageTag($image_id="2",$size="original");
-echo $this->adminImageTag($image_id="3",$size="original");
+echo "<a href='https://www.rice.edu/'>".$this->adminImageTag($image_id="1",$size="original")."</a>";
+echo "<a href='http://www.hcpl.net/'>".$this->adminImageTag($image_id="2",$size="original")."</a>";
+echo "<a href='https://libraries.uh.edu/'>".$this->adminImageTag($image_id="3",$size="original")."</a>";
 ?>
 </center>
 </div>
