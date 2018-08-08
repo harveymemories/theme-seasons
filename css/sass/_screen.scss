@@ -245,6 +245,22 @@ a { text-decoration: none; }
     overflow: hidden;
 }
 
+.logos {
+    background-color: #fff;
+    opacity: 0.7;
+    border: 0px;
+    box-shadow: none;
+
+    a img {
+       opacity: 0.8;
+       border: 0px;
+       padding: 30px;
+       max-width: 100%;
+   }
+
+   a:hover img {opacity: 1;}
+}
+
 
 /* !---------- Navigation ---------- */
 

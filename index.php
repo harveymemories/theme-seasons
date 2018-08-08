@@ -48,17 +48,7 @@ if ($recentItems):
 </div><!--end recent-items -->
 <?php endif; ?>
 
-<style>
-.logos a img {
-    opacity: 0.8;
-    border: 0px;
-    padding: 30px;
-    max-width: 100%;
-}
-.logos a:hover img {opacity: 1;}
-</style>
-
-<div id="featured-item" class="logos" style="background-color: #fff; opacity: 0.7; border: 0px; box-shadow: none;">
+<div id="featured-item" class="logos">
 <center>
 <?php 
 echo "<a href='https://www.rice.edu/'>".$this->adminImageTag($image_id="1",$size="original")."</a>";
