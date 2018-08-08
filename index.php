@@ -61,9 +61,9 @@ if ($recentItems):
 <div id="featured-item" class="logos" style="background-color: #fff; opacity: 0.7; border: 0px; box-shadow: none;">
 <center>
 <?php 
-echo $view->adminImageTag($image_id="1",$size="original");
-echo $view->adminImageTag($image_id="2",$size="original");
-echo $view->adminImageTag($image_id="3",$size="original");
+echo $this->adminImageTag($image_id="1",$size="original");
+echo $this->adminImageTag($image_id="2",$size="original");
+echo $this->adminImageTag($image_id="3",$size="original");
 ?>
 </center>
 </div>
