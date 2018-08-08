@@ -25,6 +25,14 @@
 </div><!-- end featured collection -->
 <?php endif; ?>
 
+<div id="featured-item" class="logos">
+<center>
+<a href="https://www.rice.edu/"><img src="https://harveymemories.org/files/original/0dbfce5929989c3d4e58f7d42b483447.png" title="Rice University logo" alt="Rice University logo"></img></a>
+<a href="http://www.hcpl.net/"><img src="https://harveymemories.org/files/original/68cf6bde8016f916d702b8e0b8b550d0.png" title="Harris County Public Library logo" alt="Harris County Public Library logo"></img></a>
+<a href="https://libraries.uh.edu/"><img src="https://harveymemories.org/files/original/8cc84caa1a465b998a979202f6f83db9.png" title="University of Houston Libraries logo" alt="University of Houston libraries logo"></img></a>
+</center>
+</div>
+
 <?php if ((get_theme_option('Display Featured Exhibit') !== '0')
         && plugin_is_active('ExhibitBuilder')
         && function_exists('exhibit_builder_display_random_featured_exhibit')): ?>
@@ -48,15 +56,6 @@ if ($recentItems):
 </div><!--end recent-items -->
 <?php endif; ?>
 
-<div id="featured-item" class="logos">
-<center>
-<?php 
-echo "<a href='https://www.rice.edu/'>".$this->adminImageTag($image_id="1",$size="original")."</a>";
-echo "<a href='http://www.hcpl.net/'>".$this->adminImageTag($image_id="2",$size="original")."</a>";
-echo "<a href='https://libraries.uh.edu/'>".$this->adminImageTag($image_id="3",$size="original")."</a>";
-?>
-</center>
-</div>
 
 <?php fire_plugin_hook('public_home', array('view' => $this)); ?>
 
