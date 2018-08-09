@@ -23,6 +23,7 @@
     <!-- Stylesheets -->
     <?php
     queue_css_url('//fonts.googleapis.com/css?family=Roboto:300,400,500,700,300italic,400italic,500italic,700italic');
+    queue_css_url('//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
     queue_css_file(array('iconfonts', 'normalize', 'style'), 'screen');
     queue_css_file('print', 'print');
     $gt_css = '
