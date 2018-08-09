@@ -1457,7 +1457,7 @@ footer {
 
     a {
         &:link { color: $winter-pale-blue; }
-        &:visited { color: $winter-bright-blue; }
+        &:visited { color: $winter-pale-blue; }
         &:hover, &:active, &:focus { color: $winter-hover-blue; }
     }
 
