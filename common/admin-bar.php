@@ -1,18 +1,4 @@
-<style>
-.fa {
-    padding: 5px;
-    font-size: 30px;
-    width: 40px;
-    text-align: right;
-    text-decoration: none;
-    border-radius: 50%;
-}
-</style>
 
-<div style="float:left; display: block; padding:0px; margin-left:10px;">
-     <a href="https://twitter.com/HarveyMemories" class="fa fa-twitter"></a>
-     <a href="https://www.facebook.com/harveymemoriesproject/" class="fa fa-facebook"></a>
-</div>
 
 <nav id="admin-bar">
 

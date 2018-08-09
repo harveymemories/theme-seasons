@@ -33,6 +33,7 @@
         .goog-te-gadget-icon{display:none !important;}
     ';
     queue_css_string($gt_css);
+    queue_css_string('.fa { padding: 5px; font-size: 30px; width: 40px; text-align: right; text-decoration: none; border-radius: 50%;}');
     echo head_css();
     ?>
 
@@ -67,6 +68,11 @@
             </div>
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
         </header>
+
+        <div style="float:right; display: block; padding-top:5px; padding-right:6.77966%;">
+            <a href="https://twitter.com/HarveyMemories" class="fa fa-twitter"></a>
+            <a href="https://www.facebook.com/harveymemoriesproject/" class="fa fa-facebook"></a>
+        </div>
 
         <nav id="top-nav" class="top" role="navigation">
             <?php echo public_nav_main(); ?>
