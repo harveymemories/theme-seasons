@@ -69,7 +69,7 @@
             <?php fire_plugin_hook('public_header', array('view'=>$this)); ?>
         </header>
 
-        <div style="float:right; display: block; padding-top:5px; padding-right:6.77966%;">
+        <div style="float:right; display: block; position: relative; z-index:99; padding-top:5px; padding-right:6.77966%;">
             <a href="https://twitter.com/HarveyMemories" class="fa fa-twitter"></a>
             <a href="https://www.facebook.com/harveymemoriesproject/" class="fa fa-facebook"></a>
         </div>
