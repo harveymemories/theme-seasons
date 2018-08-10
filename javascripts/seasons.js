@@ -35,6 +35,14 @@ if (!Seasons) {
               window.location = $(this).find("option:selected").val();
             });
         });
+        $("<option />", {
+            "value": "https://twitter.com/HarveyMemories",
+            "text": "Follow on Twitter"
+        }).appendTo("nav.top select");
+        $("<option />", {
+            "value": "https://www.facebook.com/harveymemoriesproject",
+            "text": "Follow on Facebook"
+        }).appendTo("nav.top select");
     }
 
 })(jQuery);
