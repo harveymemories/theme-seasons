@@ -325,6 +325,26 @@ nav {
     }
 }
 
+.social {
+    float:right;
+    display: block;
+    position: relative;
+    z-index:99;
+    padding-top:5px;
+    padding-right:6.77966%;
+
+    .fa {
+        padding: 5px;
+        font-size: 30px;
+        width: 40px;
+        text-align: right;
+        text-decoration: none;
+        border-radius: 50%;
+    }
+}
+
+
+
     /* !---------- Pagination ---------- */
 
     .pagination {
